@@ -1,5 +1,5 @@
 {
-  "name": "@vc/glob",
+  "name": "@digitalbranch/glob",
   "version": "1.0.0",
   "description": "simple glob utility voor nodejs",
   "repo": "vincentcorbee/glob",
