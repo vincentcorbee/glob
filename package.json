@@ -2,6 +2,7 @@
   "name": "@vc/glob",
   "version": "1.0.0",
   "description": "simple glob utility voor nodejs",
+  "repo": "vincentcorbee/glob",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +11,6 @@
     "glob"
   ],
   "author": "V.J.M. Corbee",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/vincentcorbee/glob"
 }
