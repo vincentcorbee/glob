@@ -1,0 +1,14 @@
+{
+  "name": "@vc/glob",
+  "version": "1.0.0",
+  "description": "simple glob utility voor nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "glob"
+  ],
+  "author": "V.J.M. Corbee",
+  "license": "MIT"
+}
