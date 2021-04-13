@@ -16,7 +16,12 @@ npm i @digitalbranch/glob
 var glob = require("@digitalbranch/glob")
 
 // options is optional
-// Returns an array of matches
+// Returns an array of matches: [
+//  {
+//    file: fs.Dirent,
+//    path: string
+//  }
+//]
 glob("**/*.js", options)
 ```
 
@@ -24,6 +29,10 @@ glob("**/*.js", options)
 
 * `pattern` `{String}` Pattern to be matched
 * `options` `{Object}`
+* `return` `{
+  file: fs.Dirent,
+  path: String
+}`
 
 Performs a synchronous glob search.
 
