@@ -17,10 +17,7 @@ var glob = require("@digitalbranch/glob")
 
 // options is optional
 // Returns an array of matches: [
-//  {
-//    file: fs.Dirent,
-//    path: string
-//  }
+//    filePath: String
 //]
 glob("**/*.js", options)
 ```
@@ -29,10 +26,9 @@ glob("**/*.js", options)
 
 * `pattern` `{String}` Pattern to be matched
 * `options` `{Object}`
-* `return` `{
-  file: fs.Dirent,
-  path: String
-}`
+* `return` `[
+  filePath: String
+]`
 
 Performs a synchronous glob search.
 
